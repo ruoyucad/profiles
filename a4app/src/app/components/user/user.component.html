@@ -48,7 +48,9 @@
 </ul>
 
 <h1>Posts</h1>
-<div *ngFor="let post of posts; ">
-  <h4>{{post.title}}</h4>
-  <p>{{post.body}}</p>  
+<div *ngFor="let post of posts?.Trackdata">
+  <h4>{{post?.Composer}}</h4>
+  <p>{{post?.Name}}</p>
+  <p>{{post?.TrackId}}</p>
+
 </div>

@@ -8,7 +8,7 @@ export class DataService {
   
   getPosts()
   {
-    return this.http.get('https://jsonplaceholder.typicode.com/posts')
+    return this.http.get('http://127.0.0.1:5002/tracks')
     .map(res => res.json());
   }
   

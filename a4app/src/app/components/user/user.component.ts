@@ -34,7 +34,7 @@ export class UserComponent implements OnInit {
       state : 'MA'
     };
     this.dataService.getPosts().subscribe((post)=>{
-      //console.log(posts);
+      console.log(post);
       this.posts = post;
     })
   }
