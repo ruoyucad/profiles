@@ -8,7 +8,7 @@ export class DataService {
   
   getPosts()
   {
-    return this.http.get('http://127.0.0.1:5002/tracks')
+    return this.http.get('http://127.0.0.1:5002/mymusic')
     .map(res => res.json());
   }
   
